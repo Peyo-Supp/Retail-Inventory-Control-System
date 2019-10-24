@@ -16,6 +16,8 @@ Visual Paradigm v16.0 and uses the Unified Modeling Language (UML)
 The architecture is designed to integrate inventory control operations. It includes a perpetual inventory system that keeps track of SKU's quantity on hand, 
 and also accounts for the value of the inventory, it requests the transactions updates from the Point of Sales system and models the count assignments for employees.
 
+At fixed time intervals, the perpetual inventory count and and the count assignements are syncronized allowing for real-time control over the inventory in the system. When an anomaly is detected, the system triggers a count assignment. 
+
 # Requirements and Rules:
 
 item rules and requirements:
