@@ -16,7 +16,7 @@ Visual Paradigm v16.0 and uses the Unified Modeling Language (UML)
 The architecture is designed to integrate inventory control operations. It includes a perpetual inventory system that keeps track of SKU's quantity on hand, 
 and also accounts for the value of the inventory, it requests the transactions updates from the Point of Sales system and models the count assignments for employees.
 
-#Requirements and Rules:
+# Requirements and Rules:
 
 item rules and requirements:
 
@@ -35,17 +35,17 @@ The system allows for:
 
 The system also needs to assign priority to each count request, update these priority and also keep the items in a priority queue.
 
-#System Structure:
+# System Structure:
 A class diagram that models the structure of the system. It identifies the persistent elements, their attributes and the relation between the objects.
 
-#System Behavior:
+# System Behavior:
 A serie of state diagram that are illustrating how the objects of the system are behaving. 
 
 
-#System Dataflow:
+# System Dataflow:
 Through activity diagrams, the message flow/dataflow/ workflow is represented in the system.
 
-#System User Interaction:
+# System User Interaction:
 Use case diagrams show how the user, whether the controller or the manager interact in the system.
 
 
